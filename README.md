@@ -1,8 +1,6 @@
 # Project-6-Pharmaceutical-Sales-prediction-solution-for-retail-stores
-Using  Machine learning 
-This Project is all about End to End sales prediction of Rossmann Pharmaceuticals retail stores future sales in advance .
+# This Project is all about End to End sales prediction of Rossmann Pharmaceuticals retail stores future sales in advance .
 # This Rossmann Sales data contain : store.csv,train.csv,test.csv,submission.csv.
---------------------------------------------------------------------
 # The dataset used for this project contains the following columns:
 Store: The store ID.
 DayOfWeek: The day of the week (1-7, where 1 is Monday and 7 is Sunday).
@@ -24,6 +22,8 @@ Promo2SinceYear: The year when the continuous promotional offer started.
 PromoInterval: The intervals at which the continuous promotional offer is repeate
 # Data understanding
 Train data has both independent and dependent variables but Test.csv don't have target variable
-I use train and store data for mergeing them for modle building.  
+I use train and store data for mergeing them for modle building.
+# Featuer Extaction from 'Date' column 
 # EDA Outcomes
- I have tried many kind of visualization to get  all posibilities for sale forcasting and filter the for training and testing .
+ I have tried many kind of visualization to get  all posibilities like seasonality ,weekly monthly sales trend ,and promotion and holidaya impact on regular sales for sales forcasting and filter them for training and testing 
+ # Model building using Macine Learning algorithms to get future six weeks sales .
